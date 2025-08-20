@@ -958,7 +958,24 @@ section,
   
   
 }
+/* Fix swiper card size */
+.swiper-slide {
+  width: 260px !important;  /* lock width for each card */
+  max-width: 90%;           /* make sure it shrinks on mobile */
+}
 
+/* Adjust card content */
+.swiper-slide .member {
+  padding: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.swiper-slide .member img {
+  width: 120px;
+  height: auto;
+  border-radius: 12px;
+}
 
 .clients .swiper-slide img {
   transition: 0.3s;
