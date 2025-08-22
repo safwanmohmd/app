@@ -101,6 +101,8 @@ body {
 .helmet{
     max-height: 4vh;
 }
+
+
 .head{
     min-height: 100vh;
     background-image: url('../cus-imgs/image\ web\ 1.png');
@@ -274,7 +276,7 @@ i{
     background-color: #2d2d2d;
     transition: .5s;
 }
-.footer-p1,.footer-p2{
+/* .footer-p1,.footer-p2{
     padding-top: 10px;
     font-style: italic;
     font-size: 16px; 
@@ -284,16 +286,16 @@ i{
     text-align: right;
     padding-right: 0px;
     width: 100%;
-}
+} */
 i.fa-heart{
     transform:translateY(-20%);
     margin-bottom: 0px;
 }
-.footer{
+/* .footer{
     padding-top: 35px;
     padding-bottom: 45px;
     border-top: 1px solid #cccccc;
-}
+} */
 .generic-page{
     background-color: #ffffff; 
     padding-bottom: 30px;
@@ -438,9 +440,19 @@ textarea{
 .E-social{
     text-align:left;padding-top:36px;padding-bottom:0px;
 }
-.footer-p2 a{
+/* .footer-p2 a{
     color: black;
     font-size: 14px;
+} */
+@media screen and (max-width : 600px){
+    .head{
+         min-height: 60vh;
+    background-image: url('../cus-imgs/image\ web\ 1.png');
+    position: relative;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:50vh;
+    }
 }
 @media screen and (min-width: 481px) and (max-width: 1200px) {
 
@@ -453,7 +465,7 @@ textarea{
    .Element-heading-para{
     padding-right: 80px;
    }
-   .footer-p1,.footer-p2{
+   /* .footer-p1,.footer-p2{
     padding-top: 0px;
     font-size: 10px; 
     }
@@ -463,13 +475,13 @@ textarea{
     }
     .footer-p2 a{
     font-size: 12px;
-    }
+    } */
 }
 
 
 @media only screen and (max-width: 480px) {
     .font-1{
-        font-size: 18px;
+        font-size: 15px;
     }
 /*   .block{
     padding-top: 30px;
@@ -480,7 +492,7 @@ textarea{
    .Element-heading-para{
     padding-right: 60px;
   }
-    .footer-p1 p,.footer-p2 p{
+    /* .footer-p1 p,.footer-p2 p{
     padding-top: 0px;
     font-size: 12px;
     letter-spacing: 0px;
@@ -495,7 +507,7 @@ textarea{
     .footer{
         padding-top: 15px;
         padding-bottom: 25px;
-    }
+    } */
    .wow-logo{
     padding-bottom: 10px;
     padding-top: 40px;
