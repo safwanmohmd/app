@@ -481,7 +481,7 @@ textarea{
 } */
 @media screen and (max-width : 600px){
     .head{
-         min-height: 60vh;
+         min-height: 65vh;
     background-image: url('../cus-imgs/image\ web\ 1.png');
     position: relative;
     background-position: bottom;
