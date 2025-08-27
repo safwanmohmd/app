@@ -75,7 +75,7 @@
             </div>
 
             <!-- Button -->
-            <div class="col-12 mt-4">
+            <div class="col-12 mt-4 mb-3">
               <div class="wow-btn text-center">
                 <a class="btn btn-default wow-button border"
                   href="https://play.google.com/store/apps/details?id=com.ThirunabiMadh ">
@@ -347,137 +347,117 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="swiper init-swiper">
+        <!-- ✅ Swiper for Tablet & Desktop -->
+        <div class="swiper init-swiper d-none d-md-block">
           <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 40
-                },
-                "1200": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 10
-                }
-              }
-            }
-          </script>
+      {
+        "loop": true,
+        "speed": 600,
+        "autoplay": { "delay": 5000 },
+        "slidesPerView": "auto",
+        "pagination": {
+          "el": ".swiper-pagination",
+          "type": "bullets",
+          "clickable": true
+        },
+        "breakpoints": {
+          "768": { "slidesPerView": 2, "spaceBetween": 20 },
+          "1200": { "slidesPerView": 3, "spaceBetween": 10 }
+        }
+      }
+    </script>
           <div class="swiper-wrapper">
+
+            <!-- Slide 1 -->
             <div class="swiper-slide">
-              <div class="testimonial-item" style="background-color:#F2F0EF;">
-
-
-                <!-- Card that opens modal -->
+              <div class="testimonial-item p-3" style="background:#F2F0EF;">
                 <div class="member d-flex align-items-center" role="button" data-bs-toggle="modal"
                   data-bs-target="#midlajModel">
-
-                  <!-- Image -->
-                  <img src="assetss/cus-imgs/midlaj.jpg" class="img-fluid rounded-circle me-3" alt="Midlaj"
-                    style="width:60px; height:60px; object-fit:cover;">
-
-                  <!-- Text (stacked & aligned to start) -->
+                  <img src="assetss/cus-imgs/midlaj.jpg" class="img-fluid rounded-circle me-3"
+                    style="width:60px;height:60px;object-fit:cover;">
                   <div class="d-flex flex-column align-items-start">
                     <span class="fw-medium">Midlaj Fazily Thiruvambady</span>
                     <span class="text-muted">Lyrics Controller</span>
                   </div>
-
                 </div>
-                <!-- End card -->
-
-
               </div>
-            </div><!-- End testimonial item -->
+            </div>
+
+            <!-- Slide 2 -->
             <div class="swiper-slide">
-              <div class="testimonial-item" style="background-color:#F2F0EF;">
-
-
-                <!-- Card that opens modal -->
+              <div class="testimonial-item p-3" style="background:#F2F0EF;">
                 <div class="member d-flex align-items-center" role="button" data-bs-toggle="modal"
                   data-bs-target="#azeebModel">
-
-                  <!-- Image -->
-                  <img src="assetss/cus-imgs/azeeb.jpg" class="img-fluid rounded-circle me-3" alt="Midlaj"
-                    style="width:60px; height:60px; object-fit:cover;">
-
-                  <!-- Text (stacked & aligned to start) -->
+                  <img src="assetss/cus-imgs/azeeb.jpg" class="img-fluid rounded-circle me-3"
+                    style="width:60px;height:60px;object-fit:cover;">
                   <div class="d-flex flex-column align-items-start">
                     <span class="fw-medium">Abdul Azeeb K</span>
                     <span class="text-muted">Operator</span>
                   </div>
-
                 </div>
-                <!-- End card -->
-
-
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
+            <!-- Slide 3 -->
             <div class="swiper-slide">
-              <div class="testimonial-item" style="background-color:#F2F0EF;">
-
-
-                <!-- Card that opens modal -->
+              <div class="testimonial-item p-3" style="background:#F2F0EF;">
                 <div class="member d-flex align-items-center" role="button" data-bs-toggle="modal"
                   data-bs-target="#aslamModel">
-
-                  <!-- Image -->
-                  <img src="assetss/cus-imgs/aslam.jpg" class="img-fluid rounded-circle me-3" alt="Midlaj"
-                    style="width:60px; height:60px; object-fit:cover;">
-
-                  <!-- Text (stacked & aligned to start) -->
+                  <img src="assetss/cus-imgs/aslam.jpg" class="img-fluid rounded-circle me-3"
+                    style="width:60px;height:60px;object-fit:cover;">
                   <div class="d-flex flex-column align-items-start">
                     <span class="fw-medium">Mohammed Aslam K</span>
-                    <span class="text-muted">Ui/Ux Designer</span>
-                  </div>
-
-                </div>
-                <!-- End card -->
-
-
-              </div>
-            </div><!-- End testimonial item -->
-
-
-
-
-
-
-            <!-- <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class data-aos="fade-up" data-aos-delay="400">
-                  <div class="member text-center" role="button" data-bs-toggle="modal" data-bs-target="#aslamModel">
-                    <img src="assetss/cus-imgs/aslam.jpg" class="mb-3 img-fluid rounded-circle mx-auto d-block" alt
-                      style="width:120px; height:120px; object-fit:cover;">
-                    <span class="mt-3">Mohammed Aslam K</span>
-                    <h4>Ui/Ux Designer</h4>
-
-                    <div class="social mt-2">
-                      <a href><i class="bi bi-twitter-x"></i></a>
-                      <a href><i class="bi bi-facebook"></i></a>
-                      <a href><i class="bi bi-instagram"></i></a>
-                      <a href><i class="bi bi-linkedin"></i></a>
-                    </div>
+                    <span class="text-muted">UI/UX Designer</span>
                   </div>
                 </div>
               </div>
-            </div>End testimonial item -->
+            </div>
 
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
+        <!-- ✅ Vertical stacked layout for Mobile -->
+        <div class="d-block d-md-none">
+          <div class="testimonial-item p-3 mb-2" style="background:#F2F0EF;">
+            <div class="member d-flex align-items-center" role="button" data-bs-toggle="modal"
+              data-bs-target="#midlajModel">
+              <img src="assetss/cus-imgs/midlaj.jpg" class="img-fluid rounded-circle me-3"
+                style="width:60px;height:60px;object-fit:cover;">
+              <div class="d-flex flex-column align-items-start">
+                <span class="fw-medium">Midlaj Fazily Thiruvambady</span>
+                <span class="text-muted">Lyrics Controller</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item p-3 mb-2" style="background:#F2F0EF;">
+            <div class="member d-flex align-items-center" role="button" data-bs-toggle="modal"
+              data-bs-target="#azeebModel">
+              <img src="assetss/cus-imgs/azeeb.jpg" class="img-fluid rounded-circle me-3"
+                style="width:60px;height:60px;object-fit:cover;">
+              <div class="d-flex flex-column align-items-start">
+                <span class="fw-medium">Abdul Azeeb K</span>
+                <span class="text-muted">Operator</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item p-3 mb-2" style="background:#F2F0EF;">
+            <div class="member d-flex align-items-center" role="button" data-bs-toggle="modal"
+              data-bs-target="#aslamModel">
+              <img src="assetss/cus-imgs/aslam.jpg" class="img-fluid rounded-circle me-3"
+                style="width:60px;height:60px;object-fit:cover;">
+              <div class="d-flex flex-column align-items-start">
+                <span class="fw-medium">Mohammed Aslam K</span>
+                <span class="text-muted">UI/UX Designer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
+
 
       <div class="modal fade" id="midlajModel" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-fullscreen">
@@ -724,64 +704,58 @@
 
   </main>
 
-  <footer id="footer" class="footer bg-light text-dark accent-background">
+<footer id="footer" class="footer bg-light text-dark accent-background">
 
-    <div class="container footer-top">
-      <div class="row gy-2 gx-0 flex-row justify-content-between">
+  <div class="container footer-top">
+    <div class="row gy-4">
 
-        <!-- About -->
-        <div class="col-lg-5 col-md-12 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">ThirunabiMadh</span>
-          </a>
-          <p>
-            Thirunabi Madh Lyrics App is a trusted companion for Islamic song lovers, offering easy access, smooth
-            reading, and a meaningful connection to soulful devotional lyrics anytime, anywhere
-          </p>
+      <!-- About -->
+      <div class="col-lg-5 col-md-12 footer-about text-center text-md-start">
+        <a href="index.html" class="logo d-flex align-items-center justify-content-center justify-content-md-start">
+          <span class="sitename">ThirunabiMadh</span>
+        </a>
+        <p class=" d-md-block">
+          Thirunabi Madh Lyrics App is a trusted companion for Islamic song lovers, offering easy access,
+          smooth reading, and a meaningful connection to soulful devotional lyrics anytime, anywhere.
+        </p>
+      </div>
 
-        </div>
+      <!-- Our Services (always left on row) -->
+      <div class="col-6 col-md-6 col-lg-3 footer-links text-start">
+        <h4>Our Services</h4>
+        <ul class="list-unstyled">
+          <li><a class="insta" href="https://instagram.com/thirunabimadh"><i class="bi bi-instagram me-1"></i> Instagram</a></li>
+          <li><a class="fb" href="https://www.facebook.com/MidlajThiruvambadyLyrics?mibextid=ZbWKwL"><i class="bi bi-facebook me-1"></i> Facebook</a></li>
+          <li><a class="twitter" href="http://x.com/thirunabimadh"><i class="bi bi-twitter-x me-1"></i> Twitter</a></li>
+          <li><a class="telegram" href="https://t.me/Islamicsonglyrics"><i class="bi bi-telegram me-1"></i> Telegram</a></li>
+          <li><a class="whatsapp" href="https://whatsapp.com/channel/0029Va9f4U777qVXWxUVME0s"><i class="bi bi-whatsapp me-1"></i> WhatsApp</a></li>
+        </ul>
+      </div>
 
-        <!-- Our Services -->
-        <div class="col-lg-auto col-6 footer-links me-0 pe-0">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a class="insta" href="https://instagram.com/thirunabimadh"><i class="bi bi-instagram"></i>
-                Instagram</a></li>
-            <li><a class="fb" href="https://www.facebook.com/MidlajThiruvambadyLyrics?mibextid=ZbWKwL"><i
-                  class="bi bi-facebook"></i> Facebook</a></li>
-            <li><a class="twitter" href="http://x.com/thirunabimadh"><i class="bi bi-twitter-x"></i> Twitter</a></li>
-            <li><a class="telegram" href="https://t.me/Islamicsonglyrics"><i class="bi bi-telegram"></i> Telegram</a>
-            </li>
-            <li><a class="whatsapp" href="https://whatsapp.com/channel/0029Va9f4U777qVXWxUVME0s"><i
-                  class="bi bi-whatsapp"></i> WhatsApp</a></li>
-          </ul>
+      <!-- Contact Us (always right on row) -->
+     <!-- <div class="text-center col-6 col-md-6 col-lg-3 footer-contact text-end">
+  <h4>Contact Us</h4>
+  <p class="mb-0"></p>
+</div> -->
 
-
-        </div>
-
-        <!-- Contact Us -->
-        <div class="col-lg-auto col-md-12 footer-contact text-center text-md-start ms-0 ps-0">
-          <h4>Contact Us</h4>
-          <!-- <p>A108 Adam Street</p>
-          <p>New York, NY 535022</p>
-          <p>United States</p> -->
-          <!-- <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p> -->
-          <p> <a class="text-dark" href="mailto:contact.thirunabimadh@gmail.com">Email</a></p>
-        </div>
-
+<div class="col-6 col-md-6 col-lg-3 footer-links text-start">
+        <h4>Contact Us</h4>
+        <ul class="list-unstyled">
+          <li><a class=" text-dark d-inline-block" href="mailto:contact.thirunabimadh@gmail.com">Email</a></li>
+         
+        </ul>
       </div>
     </div>
+  </div>
+
+  <div class="container copyright text-center mt-4">
+    <p>© <span>Copyright</span> <strong class="px-1 sitename">ThirunabiMadh</strong> <span>All Rights Reserved</span></p>
+  </div>
+
+</footer>
 
 
 
-
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">ThirunabiMadh</strong> <span>All Rights
-          Reserved</span></p>
-
-    </div>
-
-  </footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i

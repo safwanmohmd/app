@@ -524,9 +524,41 @@ h6 {
   padding-bottom: 12px;
 }
 
-.footer .footer-links {
-  margin-bottom: 30px;
+/* Remove hardcoded margin */
+.footer-links {
+  margin-left: 0 !important;
 }
+
+@media (max-width: 768px) {
+  .footer .footer-top .row {
+    text-align: center;
+  }
+
+  /* Keep heading aligned left */
+  .footer .footer-links h4,
+  .footer .footer-contact h4 {
+    text-align: left !important;
+  }
+
+  /* Center only the links */
+  .footer .footer-links ul {
+    padding-left: 0;
+    margin: 0;
+    text-align: center; /* center list */
+  }
+
+  .footer .footer-links li {
+    display: inline-block;
+    margin: 5px 10px;
+  }
+
+  .footer .footer-contact {
+    text-align: center !important;
+    margin-bottom: 20px;
+  }
+}
+
+
 
 .footer .footer-links ul {
   list-style: none;
