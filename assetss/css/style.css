@@ -104,13 +104,16 @@ body {
 
 
 .head{
-    min-height: 100vh;
+    min-height: 50vh;
     background-image: url('../cus-imgs/image\ web\ 1.png');
     position: relative;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size:100vh;
+    margin-bottom: 0;
 }
+
+
 .fix-bottom{
     text-align: bottom;
 
